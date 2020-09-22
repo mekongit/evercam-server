@@ -1,0 +1,29 @@
+# Mix artifacts
+/_build
+/deps
+/doc
+/*.ez
+.idea
+
+# Generate on crash by the VM
+erl_crash.dump
+
+# Static artifacts
+/node_modules
+
+# Ignore compiled code for motion detection
+/priv_dir/*.so
+
+# Ignore mailgun emails made in dev/test environment
+/priv_dir/mailgun_test.json
+
+# Evercam specific files
+.env
+tmp
+storage
+
+# Python Cache
+/lib/python/__pycache__
+
+#VS Code
+.elixir_ls

@@ -1,0 +1,27 @@
+[
+  {
+    "request": {
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n    <SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://www.w3.org/2003/05/soap-envelope\"\n    xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"\n    xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis=200401-wss-wssecurity-utility-1.0.xsd\">\n    <SOAP-ENV:Header><wsse:Security><wsse:UsernameToken>\n    <wsse:Username>foo</wsse:Username>\n    <wsse:Password Type=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordDigest\">JFEvQS5Ho4xWXBKwjK2M8ZCeYqI=</wsse:Password>\n    <wsse:Nonce>wq1VdAbDgT3Ck8OcL8Ofw4TDhMONw4RJFMKCYMOpOkY=</wsse:Nonce>\n    <wsu:Created>2016-02-25T11:33:22Z</wsu:Created></wsse:UsernameToken>\n    </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body>\n    <tds:GetNetworkInterfaces xmlns:tds=\"http://www.onvif.org/ver20/device/wsdl\"></tds:GetNetworkInterfaces>\n    </SOAP-ENV:Body></SOAP-ENV:Envelope>",
+      "headers": {
+        "Content-Type": "application/soap+xml",
+        "SOAPAction": "http://www.w3.org/2003/05/soap-envelope"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "http://abcde/onvif/device_service"
+    },
+    "response": {
+      "body": [
+        "conn_failed",
+        [
+          "error",
+          "nxdomain"
+        ]
+      ],
+      "headers": [],
+      "status_code": null,
+      "type": "error"
+    }
+  }
+]

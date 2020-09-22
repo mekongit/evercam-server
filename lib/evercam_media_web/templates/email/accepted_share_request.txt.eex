@@ -1,0 +1,6 @@
+Hi <%= @user.firstname %>,
+
+This is just to let you know that <%= @sharee %> has accepted your request to share the camera <%= @camera.name %> with them. Nice one !
+
+The Evercam Team
+support@evercam.io

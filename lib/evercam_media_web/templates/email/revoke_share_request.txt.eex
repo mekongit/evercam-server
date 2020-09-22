@@ -1,0 +1,8 @@
+Hi <%= @user.firstname %>,
+
+This is just to let you know that <%= @sharee %> did not accept your request to share the camera <%= @camera.name %> with them.
+
+Thanks for trying.
+
+The Evercam Team
+support@evercam.io

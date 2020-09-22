@@ -1,0 +1,10 @@
+Hi Marco Herbst,
+
+Cloud recording for camera <%= @camera.name %> has been updated by <%= full_name(@current_user) %> [ip: <%= @user_request_ip %>].<br>See the changes below.
+
+We greatly appreciate any feedback, so if you have any suggestions or if there is anything we can do to improve your Evercam experience, please let us know.
+
+Thanks again for joining us,
+
+The Evercam Team
+support@evercam.io

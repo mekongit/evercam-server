@@ -1,0 +1,14 @@
+Hello,
+
+Here's the snapshot from your camera.
+
+<%= Enum.each(@camera_images, fn(camera_image) -> %>
+  <%= camera_image.name %> (<%= camera_image.exid %>) - See the live view on Evercam by clicking here
+<% end) %>
+
+Thanks,
+
+Evercam.io
+
+If you want to change your Snapmail settings, click here.
+If you would prefer not to receive future emails for this Scheduled SnapMail @ <%= @notify_time %>, you may unsubscribe here.
